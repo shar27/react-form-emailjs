@@ -2,6 +2,47 @@
   text-align: center;
 }
 
+.red{
+  background-color: red;
+}
+
+.blue{
+background-color: blue;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-end{
+  display: flex;
+  justify-content: end;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: start;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-start{
+  text-align: start;
+}
+
+.text-end{
+  text-align: end;
+}
+
+.grid-col-4{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +76,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* buttons */
+button{
+  padding: 0.75rem;
+  border-radius: 3px;
+  border-color: transparent;
+  width: 180px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-black{
+  background-color: black;
+  color: white;
+
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+}
+
+/* padding */
+
+.p1{
+  padding: 1rem;
+}
+
+.p2{
+  padding:2rem;
+}
+
+.p3{
+  padding:3rem;
+}
+
+.p4{
+  padding: 4rem;
+}
+
+.p5{
+  padding: 5rem;
 }
