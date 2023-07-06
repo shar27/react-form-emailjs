@@ -18,18 +18,22 @@ function Home() {
   return (
     <div className='p2'>
         
-        <div className='flex-end'>
+        <div className='d-flex justify-content-between'>
+                {isLoggedin? <h1>You are logged out</h1> : <h1>Welcome</h1>}    
         <button
         className='btn-red'
         onClick={handleChange}
         >{isLoggedin? <Login/> : <Logout/>}</button>
         </div>
 
-        <div className='flex-center p5'>
+        <div className='d-flex justify-content-center p5'>
+          
             {show? <LogOutContent/> : <LogInContent/>}
+            
         </div>
         <div>
-            <ContactForm/>
+       
+            {/* <ContactForm/> */}
         </div>
         </div>
   )
